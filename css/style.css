@@ -1,0 +1,14 @@
+table {
+    margin: 0 auto;
+    border-spacing: 0 0;
+    border-collapse: collapse;
+    background-color: rgb(122, 233, 196);
+
+}
+table th, table td {
+    border: 1px solid black;
+    padding: 1rem 3rem;
+}
+table td[data-admin] {
+    background-color: rgb(66, 212, 66);
+}
